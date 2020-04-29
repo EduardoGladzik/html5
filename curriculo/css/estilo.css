@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@author "Eduardo Gladzik";
+
+.curriculo{
+  text-align: center;
+}
+*{
+  font-family: arial;
+  margin-left: 10px;
+}
+.geral{
+  text-align: left;
+}
+body{
+  background-image:url(../img/fundo.jpg);
+  background-attachment: fixed;
+  background-repeat: none;
+}
+.principal{
+  font-family: arial;
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+li{
+  line-height: 2;
+}
+h2{
+  text-shadow: 2px 2px 2px gray;
+
+}
+.imagem{
+  width: 200px;
+  float:right;
+}
+.imagem img{
+  width: 100%;
+}
+.facebook{
+  width: 100px;
+  float: left;
+  margin: auto;
+}
+.facebook img{
+  width: 100%;
+}
+.linkedin{
+  width: 100px;
+  float: left;
+  margin: auto;
+}
+.linkedin img{
+  width: 60%;
+}
+.objetivo{
+  margin-top: 20px;
+}
+.linha{
+  margin-top: 80px;
+}
+p{
+  line-height: 1.5
+}

@@ -1,0 +1,14 @@
+TAGS DESCONTINUADAS TRABALHO 1
+
+1 - <acronym> Define siglas em HTML - substituida por <abbr>
+
+2 - <applet> Define um applet incorporado - substituida por <object>
+
+3 - <dir> Define a lista do diretório - substituida por <ul>
+
+4 - <font> Definia um estilo de fonte para o texto - substituida por Estilo CSS: font-style: ...
+
+5 - <center> Centraliza os elementos internos à tag - substituida por Estilo CSS: text-align: center
+
+6 - <isindex> Adiciona um campo de pesquisa - substituida por <form>
+

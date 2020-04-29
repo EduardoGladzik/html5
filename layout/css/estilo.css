@@ -1,0 +1,196 @@
+
+@charset "UTF-8";
+
+@author "Eduardo Gladzik";
+/*Formatando tudo*/
+*{
+  font-family: comic sans ms;
+  margin: 0;
+  text-align: justify;
+  text-shadow: 2px 2px 2px pink;
+}
+/*Formatando plano de fundo*/
+body{
+  background-image:url(../img/backgrounds/background.jpg);
+  background-repeat: none;
+  background-attachment: fixed;
+
+}
+/*Formatando a div geral*/
+.geral{
+  width: 1200px;
+  margin: 0 auto;
+  border:1px groove gold;
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px gold;
+  border-color: gold;
+}
+/*Formatando o topo - header*/
+.topo{
+  width: 100%;
+  height:350px;
+  background-size: 100% 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-image: url(../img/headers/header.jpg);
+}
+.topo2{
+  width: 100%;
+  height:350px;
+  background-size: 100% 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-image: url(../img/headers/header2.jpg);
+}
+.topo3{
+  width: 100%;
+  height:350px;
+  background-size: 100% 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-image: url(../img/headers/header6.jpg);
+}
+.topo4{
+  width: 100%;
+  height:350px;
+  background-size: 100% 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-image: url(../img/headers/header3.jpg);
+}
+/*Formatando o cotainer para o menu*/
+.menu{
+  width: 100%;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  background-color: #ff00ff;
+}
+/*Formatando container section conteudo*/
+.conteudo{
+  width: 100%;
+  height: 100%;
+  /* overflow: auto; */
+  background-color:rgba(255, 209, 26, 0.5);
+}
+/*Formatando container rodapé */
+.rodapé{
+  width: 1200px;
+  height: 40px;
+  background-color:#ff00ff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  vertical-align: middle;
+  display: table-cell;
+}
+/*Formatando colunas*/
+.colunas{
+  -webkit-column-count:3;
+  -webkit-column-gap:10px;
+  -webkit-column-rule:black solid 1px;
+}
+/*Formatando parágrafos das colunas*/
+.colunas p{
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 1.5;
+}
+/*Formatando o tiutlo das colunas*/
+.conteudo h1{
+  font-variant: small-caps;
+  padding: 20px;
+  color: black;
+  text-shadow: 2px 2px 2px pink;
+}
+.conteudo h2{
+  font-variant: small-caps;
+  padding: 20px;
+  color: black;
+  text-shadow: 2px 2px 2px pink;
+}
+/*Formatando figuras*/
+.figuracolunas{
+  border: 1px groove black;
+}
+.figuracolunas img{
+  width: 100%;
+}
+.figurapessoal{
+	width: 600px;
+	height: 300px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.figurapessoal img{
+	 width: 100%;
+	 height: 100%;
+}
+.figureaparencia{
+  margin: 0 auto;
+}
+.figureaparencia img{
+  width: 100%;
+}
+.figureaparencia0{
+  width: 500px;
+  margin: auto;
+}
+.figureaparencia0 img{
+  width: 100%;
+}
+.figurastand{
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  padding: 10px;
+  float: right;
+}
+.figurastand img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.figurastand0{
+  width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.figurastand0 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+p{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+table, td, th{
+	border: 2px black;
+	border-style: groove;
+	padding: 2px;
+  background-color:rgba(255, 209, 26, 0.3);
+}
+
+tr, th, td{
+	width: 350px;
+	height: 45px;
+  text-align: left;
+}
+table{
+	border-collapse: collapse;
+  float: right;
+  width: 100%;
+  height: 30px;
+}
+.centro{
+  text-align: center;
+}
+address{
+  text-align: center;
+}
+.menu ul li{
+  display: inline;
+  margin:0;
+  padding: 10px;
+}

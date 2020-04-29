@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+*{
+  color: white;
+}
+
+body{
+  background-color: black;
+}
+
+.geral{
+  width: 90%;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+.titulo{
+  /* background-color: blue; */
+  width: 45%;
+  text-align: center;
+  float: left;
+}
+
+.topo{
+  width: 100%;
+  margin: auto;
+}
+
+.topo img{
+  width: 100%;
+}
+
+.section{
+  text-align: center;
+  border: 1px solid white;
+  margin-top: 5px;
+  padding: 0.1%;
+  height: 400px;
+}
+
+.caixaspequenas{
+  width: 17.85%;
+  margin: 2%;
+  margin-top: 3%;
+  float: left;
+  border: 1% solid white;
+}
+
+.caixaspequenas1{
+  width: 17.85%;
+  margin-left: 8.3%;
+  margin-right: 2%;
+  margin-top: 3%;
+  float: left;
+}
+.caixaspequenas2{
+  width: 17.85%;
+  margin-right: 8.3%;
+  margin-left: 2%;
+  margin-top: 3%;
+  float: left;
+}
+
+.footer{
+  clear: both;
+  float: none;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  background-color:black;
+  line-height: 40px;
+  margin-top: 10px;
+}
+
+.menu{
+  width: 55%;
+  /* background-color: red; */
+  float: left;
+  text-align: right;
+}
+
+.menu ul{
+  list-style-type: none;
+  line-height: 1;
+  padding: 0;
+}
+
+.menu ul li{
+  text-align: center;
+  display: inline-block;
+}
+
+.menu ul li a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.menu ul li a:hover{
+  color: white;
+  letter-spacing: 2px;
+}

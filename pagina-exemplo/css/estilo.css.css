@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@author "Eduardo Gladzik";
+
+/*Formatando tudo: */
+*{ 
+	font-family:verdana;
+}
+
+/*Formatando cord do fundo:
+body{
+	background-color:#ff0000
+}
+*/
+
+body{
+	background-image: url("jojos.jpg");
+}
+
+/*Formarando a classe para títulos de cada */
+.pricipal{
+	font-family: Cooper, verdana, arial;
+	color: navy;
+	text-align:center;
+	text-shadow: 2px 2px 4px black;
+}

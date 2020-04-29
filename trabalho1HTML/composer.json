@@ -1,0 +1,14 @@
+{
+    "name": "eduardo/trabalho1",
+    "description": "trabalho 1 html",
+    "type": "mit",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "eduardo gladzik",
+            "email": "eduardogladzik@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

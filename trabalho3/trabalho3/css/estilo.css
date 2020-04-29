@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@author "Eduardo Gladzik";
+
+body{
+  background-image:url(../img/fundos/fundo.png);
+  background-attachment: fixed;
+  font-family: Verdana,Arial,Helvetica;
+  font-size: 12px;
+  text-align: justify;
+}
+.geral{
+  background-color: purple;
+  margin: auto;
+  width:800px;
+  border-radius: 20px;
+}
+header{
+  background-image:url(../img/headers/header0.jpg);
+  height: 160px;
+  opacity: 0.7;
+  margin-bottom: 0;
+  border-radius: 20px 20px 0 0;
+}
+article{
+  background-color: #d9d9d9;
+  width:320px;
+  float:right;
+  height: 640px;
+}
+aside{
+  background-color: #e6e6e6;
+  width:480px;
+  float: left;
+  height: 640px;
+
+}
+h1{
+  text-align: center;
+}
+p{
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 5px;
+}
+figure{
+  border: 2px solid black;
+  width: 250px;
+  height: 350px;
+  margin: 30px;
+}
+figure img{
+  width: 100%;
+  height: 100%;
+}
+table tr th{
+  padding: 5px;
+}
+nav{
+  background-color: gold;
+  height: 50px;
+  text-align: center;
+  margin-top:-12px;;
+}
+footer{
+  clear: both;
+  float: none;
+  text-align: center;
+  width: 1200px;
+  height: 40px;
+  background-color:gold;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  vertical-align: middle;
+  display: table-cell;
+  border-radius:0 0 20px 20px;
+}
+.menu{
+  width: auto;
+}
+.menu ul{
+  list-style-type: none;
+  line-height: 1;
+  padding: 0;
+}
+.menu ul li{
+  text-align: center;
+  display: inline-block;
+}
+.menu ul li a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding:17.5px 90px;
+}
+.menu ul li a:hover{
+  color: black;
+  text-shadow: 2px 2px 2px gold;
+  letter-spacing: 2px;
+}

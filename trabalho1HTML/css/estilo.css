@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@author "Eduardo Gladzik";
+
+*{
+  font-family: verdana;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+body{
+  background-color: gray;
+}
+
+.principal{
+  font-family: verdana;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+  text-decoration: none;
+}
+
+.geral{
+  font-family: arial;
+  color: white;
+  text-align: left;
+  text-shadow: 1px 1px 1px black;
+  text-decoration: none;
+  border: 2px groove white;
+  padding: 10px;
+}
+
+.border{
+  border: 2px groove white;
+  padding: 10px
+}
+
+p{
+  text-indent: 25px;
+  line-height: 1.5;
+}
+
+
+footer{
+  text-align: right;
+}
+cite{
+  text-align: right;
+}
+
+address{
+  text-align: right;
+}
