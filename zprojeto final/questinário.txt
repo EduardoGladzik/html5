@@ -1,0 +1,76 @@
+<Menu>
+
+Home - História - Pesonagens - Produção - Visual novel & manga
+
+</Menu>
+
+<Home>
+
+Formulário - 
+	Nome;
+	Personagem Favorito e porque;
+	Como conheceu (Anime, Manga, Visual novel)
+
+ Quiz -
+
+ Qual o nome da capacidade de reter memórias através das linhas do tempo? - Leitura Steiner (D-mail / Steins;Gate)
+ Quantos anos tem Rintaro Okabe? - 18 (19 / 20)
+ Qual apelido Rintaro da a Moeka? - Shining Finger (Super Hacker / Zombie)
+ Em que área de Tokyo Steins;Gate se passa? - Akihabara (Ueno / Kanto)
+ Qual o nome do laboratório de Okabe? - laboratório de Gadgets do Futuro (Laboratório Futurista de Gadgets / Laboratórios do Futuro dos Gadgets)
+ Qual o hobby de Mayuri? - Cosplay (Desenhar / Distribuir denuncias falsas sobre desaparecidos)
+ Qual a bebida Favorita da Okabe? - Dr.Peper (Dr.Cola / Dr.Gate)
+ Qual personagem não existe na linha do tempo de Steins;Gate? Amane Suzuha (Makise Kurisu / Shina Mayuri)
+ Como a equipe chama as mensagens de texto mandadas para o passado? - D-mail (Steins;Gate / Divergência)
+ Durante as viagens entre as linhas do tempo, qual dessas NÃO é a causa da morte de mayuri? - Suicidio (Atropelamento / Ataque cárdiaco)
+ Ruka é menino ou menina? - Depende da linha do tempo (menino / menina)
+ Por que nome Okabe chama Kurisu? - Christina (zombie / pudding pie)
+ Qual o alter-ego de Okabe? - Hououin Kyouma (Rintarou Kyouma / Hououin shinomya)
+ Qual o nome da maquina que indica em que linha do tempo Okabe está? - Medidor de divergência (Medidor de latencia / Medidor de convergêcia)
+ Que frase caracrística Okabe fala quando encerra uma ligação? - El Psy Congroo (Ero Psy Comboo / Nero Psy Pomboo)
+
+</home>
+
+<história> - pegar da Wiki
+
+ "Resumo da história"
+
+</história>
+
+<personagens> - Pegar do MyAnimeList / Wiki
+
+ "Descrição de cada personagem (pricipais) junto da ficha técnica"
+
+	ex: Okabe rintarou
+	    Alter-ego: Hououin Kyouma
+	    Idade: 18
+	    Altura: **
+	    Peso: **
+	    Sexo: Masculino
+
+	    *Descrição do Personagem*
+
+</personagens>
+
+<produção> - pegar do MyAnimeList
+
+	Informações técnicas
+
+	ex: 
+	Estúdio -
+	Diretor -
+	Character Design -
+	Roteirista -
+	Fonte -
+	Ano de laçamento -
+
+</produção>
+
+<visual novel & manga>
+
+	Breve resumo da visual novel e do manga / apontando suas diferenças para com o anime
+
+</visual novel & manga>
+ 
+	
+ 

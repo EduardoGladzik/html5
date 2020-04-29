@@ -1,0 +1,806 @@
+@charset "UTF-8";
+
+*{
+  font-size: 20px;
+}
+
+body{
+  background-image:url(../img/background2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.geral{
+  margin: 0 auto;
+  width: 90%;
+  /* border: 4px solid black; */
+  /* border-radius: 20px; */
+  height: 1000px;
+}
+.header1{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* background-color: blue; */
+  height: 160px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgba(230, 230, 230, 0.7);
+}
+
+.header2{
+  width: 100%;
+  height: 300px;
+  background-image:url(../img/header2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+/* Formulário */
+
+.container{
+  height: 2100px;
+  width: 96%;;
+  padding: 2%;
+  float: left;
+  border: 2px solid black;
+  border-radius: 20px 20px 0 0;
+  background-color: rgba(230, 230, 230, 0.7);
+  /* background-color: green; */
+}
+
+.formulário{
+  padding: 10px;
+  text-shadow: 1px black;
+}
+
+.formulário h2{
+  text-align: center;
+}
+
+.linha{
+  align-content: center;
+  width: 50%;
+}
+
+.rodape{
+  clear: both;
+  float: none;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  background-color:black;
+  line-height: 40px;
+  margin-bottom: 10px;
+  border-radius: 0 0 20px 20px;
+}
+
+/* Home */
+
+.container2{
+  font-size: 20px;
+  text-shadow: 1px black;
+  letter-spacing: 1px;
+  text-align: justify;
+  padding: 5%;
+  padding-top: 1%;
+  height: 2050px;
+  width: 90%;
+  border: 2px solid black;
+  border-radius: 20px 20px 0 0;
+  background-color: rgba(230, 230, 230, 0.7);
+}
+
+.container2 h2{
+  text-align: center;
+}
+
+
+.imagemhome{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.imagemhome img{
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+
+/* Personagens */
+
+.container3{
+  font-size: 20px;
+  text-shadow: 2px black;
+  letter-spacing: 1px;
+  text-align: justify;
+  padding: 5%;
+  padding-top: 1%;
+  height: 3700px;
+  width: 90%;
+  border: 2px solid black;
+  border-radius: 20px 20px 0 0;
+  background-color: rgba(230, 230, 230, 0.7);
+}
+
+.container3 h2{
+  text-align: center;
+}
+
+.container3 p{
+  float: left;
+  width: 68%;
+  /* background-color: blue; */
+}
+
+.personagem{
+  /* background-color: green; */
+  padding: 1%;
+  height: 400px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgba(230, 230, 230, 0.7)
+}
+
+.personagem h3{
+  margin-bottom: 0;
+}
+
+.personagem2{
+  /* background-color: green; */
+  padding: 1%;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgba(230, 230, 230, 0.7);
+}
+
+.personagem2 div{
+  margin-top: 15px;
+}
+
+.personagem2 h3{
+    margin-bottom: 0;
+}
+
+.personagem3{
+  /* background-color: green; */
+  height: 280px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgba(230, 230, 230, 0.7);
+  padding:1%;
+}
+
+.personagem3 h3{
+    margin-bottom: 0;
+}
+
+.personagem4{
+  height: 280px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgba(230, 230, 230, 0.7);
+  padding: 1%;
+}
+
+.personagem5{
+  height: 280px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgba(230, 230, 230, 0.7);
+  padding: 1%;
+}
+
+.personagem6{
+  height: 280px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgba(230, 230, 230, 0.7);
+  padding: 1%;
+}
+
+.imagem{
+  float: right;
+  width: 30%;
+  /* background-color: red; */
+  margin-top: 40px;
+}
+
+.imagem img{
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.imagem2{
+  float: right;
+  width: 25%;
+  /* background-color: red; */
+}
+
+.imagem2 img{
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.imagem3 img{
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.imagem4{
+  float: right;
+  width: 25%;
+}
+
+.imagem4 img{
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.imagem5 img{
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.imagem6 img{
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+/* Produção */
+
+.container4{
+    height: 1850px;
+    width: 96%;;
+    padding: 2%;
+    float: left;
+    border: 2px solid black;
+    border-radius: 20px 20px 0 0;
+    background-color: rgba(230, 230, 230, 0.7);
+}
+
+.container4 h2{
+  text-align: center;
+}
+
+.esquerda{
+  float: left;
+  padding: 1%;
+  width: 30%;
+  height: 350px;
+  margin-top: 50px;
+}
+
+table{
+  margin: 0 auto;
+  width: 90%;
+}
+
+tr th{
+  text-align: left;
+  border: 2px solid black;
+}
+
+.direita{
+  float: left;
+  height: 500px;
+  width: 66%;
+  margin-top: 50px;
+  padding: 1%;
+}
+
+.imagemprod{
+  width: 40%;
+  float: right;
+}
+
+.direita img{
+  width: 100%;
+}
+
+.direita p{
+  float: right;
+  width: 56%;
+  padding: 2%;
+  padding-top: 0%;
+}
+
+.video{
+  width: 40%;
+  margin: 0  auto;
+}
+
+.video video{
+  width: 100%;
+  margin-top: 30px;
+}
+
+.baixo{
+  float: left;
+  height: 600px;
+  width: 100%;
+  padding: 1%;
+}
+
+.esquerdabaixo{
+  text-align: right;
+  width: 48%;
+  float: left;
+  padding: 1%;
+  padding-top: 0%;
+}
+
+.direitabaixo{
+  text-align: left;
+  width: 48%;
+  float: left;
+  padding: 1%;
+  padding-top: 0%;
+}
+
+.menu{
+  width: 100%;
+  float: none;
+  text-align: center;
+  /* border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgba(230, 230, 230, 0.7); */
+}
+
+.menu ul{
+  list-style-type: none;
+  line-height: 0;
+  padding: 0;
+}
+
+.menu ul li{
+  text-align: center;
+  display: inline-block;
+}
+
+.menu ul li a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.menu ul li a:hover{
+  color: black;
+  letter-spacing: 2px;
+}
+
+@media screen and ( max-width: 1200px) {
+  .container2{
+    height: 2300px;
+  }
+
+  .container3{
+    height: 4000px;
+  }
+
+  .imagem{
+    margin-top: 10px;
+  }
+  .imagem2{
+    width: 23%;
+    margin-right: 4%;
+  }
+
+  .personagem3{
+    height: 320px;
+  }
+
+  .imagem3{
+    width: 25%;
+    float: right;
+    margin-right: 2%;
+  }
+
+  .imagem3 img{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+
+  .imagem4{
+    margin-right: 2%;
+  }
+
+  .personagem4{
+    padding: 1%;
+    height: 400px;
+    border: 2px solid black;
+    background-color: rgba(230, 230, 230, 0.7);
+    border-radius: 20px;
+  }
+  .personagem5{
+    padding: 1%;
+    height: 350px;
+    border: 2px solid black;
+    background-color: rgba(230, 230, 230, 0.7);
+    border-radius: 20px;
+  }
+  .imagem5{
+    border-radius: 20px;
+    float: right;
+    margin-right: 2%;
+    width: 25%;
+  }
+  .imagem5 img{
+    width: 100%;
+    border-radius: 20px;
+  }
+  .personagem6{
+    padding: 1%;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgba(230, 230, 230, 0.7);
+  }
+  .imagem6{
+    float: right;
+    width: 25%;
+    margin-right: 2%;
+    margin-bottom: 40px;
+  }
+  .imagem6 img{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+}
+
+@media screen and ( min-width: 1200px) {
+  .container2{
+    height: 2300px;
+  }
+
+  .container3{
+    height: 4000px;
+  }
+
+  .imagem{
+    margin-top: 10px;
+  }
+  .imagem2{
+    width: 23%;
+    margin-right: 4%;
+  }
+
+  .personagem3{
+    height: 320px;
+  }
+
+  .imagem3{
+    width: 25%;
+    float: right;
+    margin-right: 2%;
+  }
+
+  .imagem3 img{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+
+  .imagem4{
+    margin-right: 2%;
+  }
+
+  .personagem4{
+    padding: 1%;
+    height: 400px;
+    border: 2px solid black;
+    background-color: rgba(230, 230, 230, 0.7);
+    border-radius: 20px;
+  }
+  .personagem5{
+    padding: 1%;
+    height: 350px;
+    border: 2px solid black;
+    background-color: rgba(230, 230, 230, 0.7);
+    border-radius: 20px;
+  }
+  .imagem5{
+    border-radius: 20px;
+    float: right;
+    margin-right: 2%;
+    width: 25%;
+  }
+  .imagem5 img{
+    width: 100%;
+    border-radius: 20px;
+  }
+  .personagem6{
+    padding: 1%;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgba(230, 230, 230, 0.7);
+  }
+  .imagem6{
+    float: right;
+    width: 25%;
+    margin-right: 2%;
+    margin-bottom: 40px;
+  }
+  .imagem6 img{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+}
+
+@media screen and ( max-width: 960px) {
+  .container2{
+    height: 1700px;
+  }
+  .container4{
+      height: 2200px;
+      width: 96%;;
+      padding: 2%;
+      float: left;
+      border: 2px solid black;
+      border-radius: 20px 20px 0 0;
+      background-color: rgba(230, 230, 230, 0.7);
+  }
+
+  .container4 h2{
+    text-align: center;
+  }
+
+  .esquerda{
+    float: left;
+    padding: 1%;
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+  }
+
+  table{
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  tr th{
+    text-align: left;
+    border: 2px solid black;
+  }
+
+  .direita{
+    float: left;
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+    padding: 1%;
+  }
+
+  .imagemprod{
+    width: 100%;
+  }
+
+  .direita img{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .direita p{
+    float: left;
+    text-align: justify;
+    width: 92%;
+    padding: 2%;
+    padding-top: 0%;
+  }
+
+
+  .baixo{
+    float: left;
+    height: 300px;
+    width: 94%;
+    padding: 1%;
+    margin-top: 190px;
+  }
+
+  .video{
+    width: 40%;
+    margin: 0  auto;
+  }
+
+  .video video{
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .esquerdabaixo{
+    text-align: right;
+    width: 48%;
+    float: left;
+    padding: 1%;
+    padding-top: 0%;
+  }
+
+  .direitabaixo{
+    text-align: left;
+    width: 48%;
+    float: left;
+    padding: 1%;
+    padding-top: 0%;
+  }
+
+  /* personagens */
+
+  .container3{
+    height: 5600px;
+  }
+
+  .personagem{
+    height: 600px;
+    padding: 2%;
+  }
+  .personagem p{
+    width: 100%;
+  }
+  .personagem h3{
+    text-align: center;
+  }
+  .imagem{
+    margin: 0 auto;
+    float: none;
+    width: 40%;
+  }
+  .imagem2{
+    margin: 0 auto;
+    float: none;
+    width: 40%;
+  }
+  .personagem4{
+    padding: 2%;
+    height: 450px;
+  }
+  .personagem4 p{
+    width: 100%;
+  }
+  .personagem4 h3{
+    text-align: center;
+  }
+  .imagem4{
+    margin: 0 auto;
+    float: none;
+    width: 40%;
+  }
+  .personagem5{
+    height: 450px;
+  }
+  .personagem5 h3{
+    text-align: center;
+  }
+  .personagem5 p{
+    width: 100%;
+  }
+  .imagem5{
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+  }
+  .imagem5 img{
+    width: 100%;
+  }
+  .personagem3{
+    height: 550px;
+  }
+  .personagem3 p{
+    width: 100%;
+  }
+  .personagem3 h3{
+    text-align: center;
+  }
+  .imagem3{
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+  }
+  .imagem3 img{
+    width: 100%;
+  }
+  .personagem6{
+    height: 600px;
+  }
+  .personagem6 p{
+    width: 100%;
+  }
+  .personagem6 h3{
+    text-align: center;
+  }
+  .imagem6{
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+  }
+  .imagem6 img{
+    width: 100%;
+  }
+}
+
+@media screen and ( max-width: 720px) {
+  .menu ul li a{
+    padding: 20px;
+  }
+  .container{
+    height: 2200px;
+  }.container textarea{
+    width: 80%;
+  }
+  .container2{
+    height: 1900px;
+  }
+  .personagem{
+    height: 650px;
+  }
+  .personagem6{
+    height: 450px;
+  }
+  .container4{
+    height: 2450px;
+  }
+  .video{
+    width: 60%;
+  }
+  .direita{
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and ( max-width: 420px) {
+
+  .container{
+    height: 2410px;
+  }
+  .container2{
+    height: 2500px;
+  }
+  .container3{
+    height: 7400px;
+  }
+  .container4{
+    height: 3200px;
+  }
+  .personagem{
+    height: 900px;
+  }
+  .personagem4{
+    height: 600px;
+  }
+  .personagem3{
+    height: 700px;
+  }
+  .personagem6{
+    height: 600px;
+  }
+  .esquerda{
+    margin-top: 0;
+  }
+  .direita{
+    margin-bottom: 0;
+    height: 800px;
+  }
+  .video{
+    width: 80%;
+  }
+  .esquerdabaixo{
+    width: 100%;
+    text-align: center;
+  }
+  .direitabaixo{
+    width: 100%;
+    text-align: center;
+  }
+}
