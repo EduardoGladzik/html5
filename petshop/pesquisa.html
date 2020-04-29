@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Casa Animalesca</title>
+        
+		<meta charset="UTF-8">
+        
+		<meta name="description " content= "Pet Shop">
+		<meta name="Keywords" content= "Pet, Shop, Animais">
+		<meta name="author" content="Leonardo Sauer/Leon Moore">
+		<link rel="icon" href="imagens/pet.png"  type="imagens/pet.png">
+		<link rel="stylesheet" href="css/estilopesquisa.css" type="text/css">
+	</head>
+	<body>
+        <div id="tudo">
+	   <header>
+		 
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="pesquisa.html">Pesquisa</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div id="conteudo">
+           <br><br><br>
+            <h1>Pesquisa de satisfação do cliente.</h1>
+            <br><br>
+
+            <form action="agradecimento.html" method= "post" name="dados" id="formps">
+                <br>
+                <p id="obg">Obrigado por visitar a pet shop Tomba Lata, por favor preencha esse formulario de satisfação do cliente!</p>
+                <br><br><br>
+
+                <fieldset>
+                    <legend>Dados </legend><br>
+                    <input type="text" id="txtnome" name="txtnome" placeholder="Nome" class="camp"><br><br>
+                    <input type="email" id="txtmail" name="txtmail" placeholder="E-mail" class="camp"><br><br>
+                    <input type="email" id="txtmail2" name="txtmail" placeholder="Confirme seu E-mail" class="camp"><br><br>
+                    <br>	
+                    <br>
+                    <fieldset>
+                        <legend>Avalie o nosso site</legend><br>
+                        1<input type="range" name="valores" value="5" min="1" max="10">10
+                        <br>
+                    </fieldset><br><hr>
+
+                    <fieldset class="menor">
+                        <legend>Como você classificaria seu atendimento?</legend>
+                        <br>
+                        <input type="radio" name="rdgclassif" id="otimo" value="o" >Ótimo<br>
+                        <input type="radio" name="rdgclassif" id="bom" value="b" >Bom<br>
+                        <input type="radio" name="rdgclassif" id="medio" value="m" checked="checked">Mediano<br>
+                        <input type="radio" name="rdgclassif" id="ruim" value="r" >Ruim<br>
+                        <input type="radio" name="rdgclassif" id="pessimo" value="p" >Péssimo<br>
+                    </fieldset>
+                    <br>
+                    <br>
+                    <fieldset class="menor">
+                        <legend>Em sua opinião o que poderia melhorar?</legend>
+                        <br>
+
+                        <input type="checkbox" name="ckinteres" id="ckinteres1" value="atend">Atendimento<br>
+                        <input type="checkbox" name="ckinteres" id="ckinteres2" value="preco">Preço<br>
+                        <input type="checkbox" name="ckinteres" id="ckinteres3" value="prod">Produtos<br>
+                    </fieldset><br><hr>
+
+
+                    <label class="legenda">Estabelecimento:</label>
+                    <select name="ccmbcidades" id="pslocais">
+                        <option value="slc"> Selecione o estabelecimento</option>
+                        <option value="ec">Rua Encantado, 198</option>
+                        <option value="ab">Av. Alberto Bins, 756</option>
+                        <option value="zh">Av. Zero Hora, 206</option>
+                        <option value="pa">Av Protasio Alves, 3562</option>
+                        <option value="sdp">Rua Sr. dos Passos, 438 </option>
+                    </select>
+                    <hr>
+                    <br>
+
+                    <label class="legenda">Comentarios</label><br>
+                    <textarea name="txtobserv" placeholder="Comentarios" maxlength="250" cols="55" rows="10" id="coment"></textarea>
+                    <br>
+                    <input type="reset" name="btnlimpar" value="Limpar" class="campos">
+                    <input type="submit" name="btnenviar" value="Enviar" class="campos">
+                    <br>
+
+
+                </fieldset>
+            </form>
+            <br><br>
+        </div>
+          
+            <footer> 
+
+                <div>
+                    <p id="empre">| &copy; <sub>2019</sub> - <b><i>Obrigado por visitar a Tomba Lata&#8482;</i></b> | </p>
+                </div>
+                <br>
+                 <div id="autoria"> <em>Todos os direitos autorais reservados a</em>: <strong><sup>Edudardo Rangel, Viktoria Steff e Leonardo Sauer</sup></strong></div>
+
+            </footer>
+        </div>
+	</body>
+</html>
+ 
